@@ -21,7 +21,7 @@ variable "dd_api_key" {
 variable "zone" {
   type        = string
   description = "GCP Zone to deploy"
-  default     = "us-east1-b"
+  default     = "australia-southeast1-a"
 }
 
 variable "enable_firewall_rule" {
